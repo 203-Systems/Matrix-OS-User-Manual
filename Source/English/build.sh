@@ -1,0 +1,1 @@
+pandoc "main.md" -o "../../PDF/English/main.pdf" --from markdown --template "../../Template/eisvogel.tex" --listings
