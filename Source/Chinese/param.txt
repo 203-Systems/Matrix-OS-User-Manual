@@ -1,0 +1,6 @@
+-V lang=zh 
+--pdf-engine "xelatex" 
+-V mainfont="GlowSansSC-Normal" 
+-V "mainfontoptions:Extension=.otf, UprightFont=*-Book, BoldFont=*-Bold" 
+-V CJKmainfont="GlowSansSC-Normal" 
+-V "CJKoptions:Extension=.otf, UprightFont=*-Book, BoldFont=*-Bold"
