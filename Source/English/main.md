@@ -1,60 +1,78 @@
 ---
 title: "Matrix OS User Manual"
 author: [203 Electronics]
-date: "2023-3-18"
-header-left: "\\leftmark"
-header-center: ""
-header-right: "Page \\thepage"
-footer-left: "\\thetitle"
-footer-center: ""   
-footer-right: "OS Version 2.4"
+date: "\\date"
+footer-left: "\\leftmark"
+footer-center: ""
+footer-right: "Page \\thepage"
+header-left: "\\thetitle"
+header-center: ""   
+header-right: "OS Version WIP"
+toc: true
+toc-own-page: true
+header-includes: |
+    \usepackage{sectsty}
+    \sectionfont{\clearpage}
 ...
+# Intro
 
-# Vinaque sanguine metuenti cuiquam Alcyone fixus
+Matrix is a multipurpose grid controller, designed to be community centric, highly customizable, and fully open sourced. 
 
-## Aesculeae domus vincemur et Veneris adsuetus lapsum
+Matrix OS is the soul of Matrix, enabling Matrix to be multi purpose and have enhanced standalone capabilities. All software features are shipped as Matrix OS applications and be completely independent of each other. 
 
-Lorem markdownum Letoia, et alios: figurae flectentem annis aliquid Peneosque ab
-esse, obstat gravitate. Obscura atque coniuge, per de coniunx, sibi **medias
-commentaque virgine** anima tamen comitemque petis, sed. In Amphion vestros
-hamos ire arceor mandere spicula, in licet aliquando.
+# Matrix Overview
 
-```java
-public class Example implements LoremIpsum {
-	public static void main(String[] args) {
-		if(args.length < 2) {
-			System.out.println("Lorem ipsum dolor sit amet");
-		}
-	} // Obscura atque coniuge, per de coniunx
-}
-```
+# Matrix OS Basic
+After connecting Matrix to power, a boot animation will start playing. 
+If Matrix OS can not connect to the host (eg, connected to a power bank)
 
-Porrigitur et Pallas nuper longusque cratere habuisse sepulcro pectore fertur.
-Laudat ille auditi; vertitur iura tum nepotis causa; motus. Diva virtus! Acrota
-destruitis vos iubet quo et classis excessere Scyrumve spiro subitusque mente
-Pirithoi abstulit, lapides.
+After the boot animation, the application launcher will be the first thing that the OS shows.
 
-## Lydia caelo recenti haerebat lacerum ratae at
+## Application Launcher
+Application Launcher is the main menu of the OS. It allows user to select an application to use.
 
-Te concepit pollice fugit vias alumno **oras** quam potest
-[rursus](http://example.com#rursus) optat. Non evadere orbem equorum, spatiis,
-vel pede inter si.
+In this menu, you also have access to the system setting. 
 
-1. De neque iura aquis
-2. Frangitur gaudia mihi eo umor terrae quos
-3. Recens diffudit ille tantum
+## OS Setting
+The OS setting controls things that are system wide. Like brightness, rotation, velocity sensitivity and more.
 
-\begin{equation}\label{eq:neighbor-propability}
-    p_{ij}(t) = \frac{\ell_j(t) - \ell_i(t)}{\sum_{k \in N_i(t)}^{} \ell_k(t) - \ell_i(t)}
-\end{equation}
 
-Tamen condeturque saxa Pallorque num et ferarum promittis inveni lilia iuvencae
-adessent arbor. Florente perque at condeturque saxa et ferarum promittis tendebat. Armos nisi obortas refugit me.
+In most of Matrix OS UI. You can hold down any light up buttons to see what their name or meaning. Holding down any unlit keys will show the current menu name.
 
-> Et nepotes poterat, se qui. Euntem ego pater desuetaque aethera Maeandri, et
-[Dardanio geminaque](http://example.com#Dardanio_geminaque) cernit. Lassaque poenas
-nec, manifesta $\pi r^2$ mirantia captivarum prohibebant scelerato gradus unusque
-dura.
+Some lit keys will have more advanced control panel if held down (eg, brightness control). In that case, you can hold down the unlit keys in the advance control to see the meaning for the button.
 
-- Permulcens flebile simul
-- Iura tum nepotis causa motus diva virtus Acrota. Tamen condeturque saxa Pallorque num et ferarum promittis inveni lilia iuvencae adessent arbor. Florente perque at ire arcum.
+# Matrix OS Applications
+Matrix OS features are available as separate applications. How the device behaves will complete differ depends on the active application.
+
+## Performance APP
+This application is used as a canvas for visual performance or drum pad. It can be used to perform visual performance with Amethyst Player, Ableton Live, or Unipad. 
+
+It sends standard Midi signal with aftertouch so it should be compatible with any DAW that accepts midi if it is used as drum pad purpose.
+
+## Note APP
+
+
+## Lighting APP
+
+# Matrix OS Update
+
+Matrix can enter OS update mode in two ways:
+1. Use the red button on the bottom left of the setting menu.
+2. Hold down the function key while plug in Matrix.
+
+Matrix will show up as a USB mass storage drive in your host device. Simply copy the UF2 file of your desired OS into this drive. Matrix will complete the firmware update and will reboot upon finish.
+
+# Special Booting Mode
+Matrix has a few special booting mode. Holding the indicated keys down during booting will enter them instead of the regular OS routine.
+
+## Hardware Test & Configuration
+This is a testing mode and configuration menu for Matrix.
+
+## Low Brightness
+This will reset Matrix’s brightness setting to lowest, allowing hosts with low power delivery capabilities to operate Matrix.
+
+## Factory Reset
+This key combination will reset Matrix OS’s user configuration
+
+# Credit
+203Null

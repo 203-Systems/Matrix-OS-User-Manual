@@ -8,10 +8,16 @@ SRCS := $(shell dir /s /b $(SRCDIR)\*.md)
 # Generate PDF paths for each source file
 PDFS := $(patsubst $(SRCDIR)%.md,$(BUILDDIR)%.pdf,$(SRCS))
 
+DATE := $(shell powershell -Command "Get-Date -format 'yyyy-MM-dd'")
+GITTAG := $(shell git describe --tags --abbrev=0)
+
 $(info $(SRCDIR))
 $(info $(BUILDDIR))
 $(info SRCS: $(SRCS))
 $(info PDFS: $(PDFS))
+
+$(info DATE: $(DATE))
+$(info TAG: $(GITTAG))
 
 # Rule to build all PDFs
 all: $(PDFS)
@@ -20,9 +26,9 @@ all: $(PDFS)
 $(BUILDDIR)%.pdf: $(SRCDIR)%.md
 	@if not exist $(dir $@) (mkdir $(dir $@))
 	@echo Building $@ from $<
-	@pandoc $< -o $@ --from markdown --template "../../Template/eisvogel.tex" --listings
+	@pandoc $< -o $@ --from markdown --template "../../Template/eisvogel.tex" --listings --top-level-division=section -V date="$(DATE)" -V git_tag="$(GITTAG)"
 
 # Clean rule to remove all PDFs
 clean:
 	@echo Cleaning $(BUILDDIR)
-	@rm -rf $(BUILDDIR)*.pdf
+	@del /S /F /Q $(BUILDDIR)
