@@ -1,10 +1,10 @@
-# Matrix OS Documentation
+# Matrix OS User Manual
 
-This is source of Matrix OS User Manual. The reference device is 203 Electronics Matrix Pro.
+This is the source of Matrix OS User Manual. The reference device is 203 Electronics Matrix controller family.
 
-Compiled PDF is available in /Build
+Compiled PDF is available in /PDF
 
-You can view the older version of this documenton in different branch of this repo.
+You can view the older version of this document in a different branch of this repo.
 
 ## Build
  This is currently only tested on Windows
@@ -14,8 +14,12 @@ You can view the older version of this documenton in different branch of this re
 3. Go to the Source\\\<Language>
 4. Run make
 
+## Font
+English - [Source Sans Pro (Black & Bold)](https://fonts.google.com/specimen/Source+Sans+Pro)
+Chinese - [未来荧黑 (Book & Bold)](https://github.com/welai/glow-sans/releases/)
+
 ## Contribution
-We are open to user contributions and feedbacks. Simpily create an issue or make a push request!
+We are open to user contributions and feedback. Simply create an issue or make a push request!
 
 ## Credit
 Template - [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template)
