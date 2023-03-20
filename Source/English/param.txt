@@ -1,0 +1,2 @@
+-V mainfont="SourceSansPro" 
+-V "mainfontoptions:Extension=.otf, UprightFont=*-Black, BoldFont=*-Bold" 
