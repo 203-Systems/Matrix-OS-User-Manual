@@ -15,8 +15,8 @@
 4. 运行make
 
 ## 字体
-英文 - [Source Sans Pro (Black & Bold)](https://fonts.google.com/specimen/Source+Sans+Pro)
-中文 - [未来荧黑 (Book & Bold)](https://github.com/welai/glow-sans/releases/)
+- 英文 - [Source Sans Pro (Black & Bold)](https://fonts.google.com/specimen/Source+Sans+Pro)
+- 中文 - [未来荧黑 (Book & Bold)](https://github.com/welai/glow-sans/releases/)
 
 ## 贡献
 我们欢迎用户的贡献和反馈, 欢迎创建Issue或提交Push Request。

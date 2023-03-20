@@ -15,8 +15,8 @@ You can view the older version of this document in a different branch of this re
 4. Run make
 
 ## Font
-English - [Source Sans Pro (Black & Bold)](https://fonts.google.com/specimen/Source+Sans+Pro)
-Chinese - [未来荧黑 (Book & Bold)](https://github.com/welai/glow-sans/releases/)
+- English - [Source Sans Pro (Black & Bold)](https://fonts.google.com/specimen/Source+Sans+Pro)
+- Chinese - [未来荧黑 (Book & Bold)](https://github.com/welai/glow-sans/releases/)
 
 ## Contribution
 We are open to user contributions and feedback. Simply create an issue or make a push request!
