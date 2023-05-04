@@ -21,7 +21,7 @@ Matrix is a multipurpose grid controller, designed to be community centric, high
 
 Matrix OS is the soul of Matrix, enabling Matrix to be multi purpose and have enhanced standalone capabilities. All software features are shipped as Matrix OS applications and be completely independent of each other. 
 
-Note: All Coordination in this document is based as the top right as (0,0)
+Note: All Coordination in this document is based as the top left as (0,0)
 
 # Matrix OS Basic
 After connecting Matrix to power, a boot animation will start playing. 
