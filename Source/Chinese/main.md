@@ -156,39 +156,38 @@ Matrix OS上的所有用户功能都作为单独的应用程序提供。本文�
 
 | 编号 | 音阶                       | C | C# | D | Eb | E | F | F# | G | Ab | A | Bb | B |
 |------|----------------------------|---|----|---|----|---|---|----|---|----|---|----|---|
-| 1    | 自然小调                    | X |    | X |    |   | X |    | X |    | X |    |   |
-| 2    | 大调                        | X |    | X |    | X |   | X  |   | X  |   | X  |   |
-| 3    | 多利安音阶                  | X |    | X |    |   | X |    | X |    | X |    |   |
-| 4    | 弗里吉亚音阶                | X | X  |   | X  |   | X |    | X |    | X |    | X |
-| 5    | 旋律大调                    | X |    | X |    | X |   | X  |   | X  |   | X  |   |
-| 6    | 升降旋律小调                | X |    | X |    |   | X |    | X |    | X |    | X |
-| 7    | 和声小调                    | X |    | X |    |   | X |    | X |    |   | X  |   |
-| 8    | Bebop 多利安音阶           | X |    |   | X  | X | X |    | X |    | X |    |   |
-| 9    | 蓝调                        | X |    |   | X  |   | X | X  |   |    | X |    | X |
-| 10   | 小调五声音阶                | X |    |   | X  |   | X |    |   |    | X |    | X |
-| 11   | 匈牙利小调                  | X |    | X |    |   |   | X  | X |    | X |    | X |
-| 12   | 乌克兰多利安音阶            | X |    | X |    |   |   | X  | X |    | X | X  |   |
-| 13   | 马尔瓦音阶                  | X | X  |   | X  |   | X |    | X |    | X |    | X |
-| 14   | 托迪音阶                    | X | X  |   | X  |   |   | X  | X |    | X |    | X |
-| 15   | 全音音阶                    | X |    | X |    | X |   | X  |   | X  |   |    |   |
-| 16   | 半音音阶                    | X | X  | X | X  | X | X | X  | X | X  | X | X  | X |
-| 17   | 七声音阶                    | X |    | X |    | X |   | X  | X |    | X |    |   |
-| 18   | 洛克里安音                  | X | X  |   | X  |   | X | X  |   | X  |   |    | X |
-| 19   | 大五音阶                    | X |    | X |    | X |   |    | X |    | X |    |   |
-| 20   | 腓利凡半减音阶             | X | X  |   |    | X |   | X  | X |    | X |    | X |
-| 21   | 半全减音阶                 | X | X  |   | X  | X |   | X  |   | X  |   | X  | X |
-| 22   | 米氏大调加一音阶           | X |    | X |    | X | X |    | X |    | X | X  | X |
-| 23   | 超洛克里安音阶             | X | X  |   | X  | X |   | X  |   | X  |   |    |   |
-| 24   | 平调阵音阶                 | X |    | X |    |   |   |    | X |    | X |    |   |
-| 25   | 阴旋音阶                   | X | X  |   |    |   | X |    | X |    |   | X  |   |
-| 26   | 陽音阶                      | X |    | X |    | X |   | X  |   | X  |   |    |   |
-| 27   | 岩户音阶                   | X | X  |   |    |   | X |    |   |    |   | X  |   |
-| 28   | 全半音阶                   | X |    | X |    | X | X |    | X |    | X |    | X |
-| 29   | 米氏小调加一音阶           | X |    | X |    | X | X |    | X |    | X |    | X |
-| 30   | 大蓝调                     | X |    | X |    |   |   | X  |   | X  |   |    | X |
-| 31   | 久美音阶                   | X |    | X |    |   |   | X  |   | X  |   |    |   |
-| 32   | 米氏大调加一音阶           | X |    | X |    | X | X |    | X | X  |   | X  |   |
-
+| 1    | Natural Minor             | X |    | X |    |   | X |    | X |    | X |    |   |
+| 2    | Major                     | X |    | X |    | X |   | X  |   | X  |   | X  |   |
+| 3    | Dorian                    | X |    | X |    |   | X |    | X |    | X |    |   |
+| 4    | Phrygian                  | X | X  |   | X  |   | X |    | X |    | X |    | X |
+| 5    | Mixolydian                | X |    | X |    | X |   | X  |   | X  |   | X  |   |
+| 6    | Melodic Minor Ascending   | X |    | X |    |   | X |    | X |    | X |    | X |
+| 7    | Harmonic Minor            | X |    | X |    |   | X |    | X |    |   | X  |   |
+| 8    | Bebop Dorian              | X |    |   | X  | X | X |    | X |    | X |    |   |
+| 9    | Blues                     | X |    |   | X  |   | X | X  |   |    | X |    | X |
+| 10   | Minor Pentatonic          | X |    |   | X  |   | X |    |   |    | X |    | X |
+| 11   | Hungarian Minor           | X |    | X |    |   |   | X  | X |    | X |    | X |
+| 12   | Ukranian Dorian           | X |    | X |    |   |   | X  | X |    | X | X  |   |
+| 13   | Marva                     | X | X  |   | X  |   | X |    | X |    | X |    | X |
+| 14   | Todi                      | X | X  |   | X  |   |   | X  | X |    | X |    | X |
+| 15   | Whole Tone                | X |    | X |    | X |   | X  |   | X  |   |    |   |
+| 16   | Chromatic                 | X | X  | X | X  | X | X | X  | X | X  | X | X  | X |
+| 17   | Lydian                    | X |    | X |    | X |   | X  | X |    | X |    |   |
+| 18   | Locrian                   | X | X  |   | X  |   | X | X  |   | X  |   |    | X |
+| 19   | Major Pentatonic          | X |    | X |    | X |   |    | X |    | X |    |   |
+| 20   | Phyrigian Dominate        | X | X  |   |    | X |   | X  | X |    | X |    | X |
+| 21   | Half-Whole Diminished     | X | X  |   | X  | X |   | X  |   | X  |   | X  | X |
+| 22   | Mixolydian BeBop          | X |    | X |    | X | X |    | X |    | X | X  | X |
+| 23   | Super Locrian             | X | X  |   | X  | X |   | X  |   | X  |   |    |   |
+| 24   | Hirajoshi                 | X |    | X |    |   |   |    | X |    | X |    |   |
+| 25   | In Sen                    | X | X  |   |    |   | X |    | X |    |   | X  |   |
+| 26   | Yo Scale                  | X |    | X |    | X |   | X  |   | X  |   |    |   |
+| 27   | Iwato                     | X | X  |   |    |   | X |    |   |    |   | X  |   |
+| 28   | Whole Half                | X |    | X |    | X | X |    | X |    | X |    | X |
+| 29   | BeBop Minor               | X |    | X |    | X | X |    | X |    | X |    | X |
+| 30   | Major Blues               | X |    | X |    |   |   | X  |   | X  |   |    | X |
+| 31   | Kumoi                     | X |    | X |    |   |   | X  |   | X  |   |    |   |
+| 32   | BeBop Major               | X |    | X |    | X | X |    | X | X  |   | X  |   |
 \pagebreak
 ## 灯光 APP
 灯光 APP 是一个非常简单的应用程序，用于让 Matrix 用于布光照明等目的。
