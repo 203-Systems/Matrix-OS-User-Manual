@@ -235,5 +235,14 @@ This is a testing mode and configuration menu for Matrix.
 
 ![](Image/special-booting-factory-menu.svg)
 
+# Feedback & Support
+If you have any feedback or suggestion for Matrix OS, you can let us know by creating an issue or discussion post on our [Github](https://github.com/203Electronics/MatrixOS). Alternatively, you can also contact us via email at null@203.io.
+
+If there are any feedback or suggestion for this manual. You can also let us know by creating an issue or even contribute it yourself by creating a pull request on our [Github](https://github.com/203Electronics/Matrix-OS-User-Manual).
+
+If you need any support on your Matrix specificlly, sent us an email at null@203.io and we will try our best to help you out.
+
+We also have a discord server for all 203's projects and more. You can join us at [203 Lab](https://discord.gg/Aw99cAgmDA).
+
 # Credit
-203Null - 203 Electronics
+- Null - 203 Electronics

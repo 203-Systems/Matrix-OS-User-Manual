@@ -203,9 +203,9 @@ Matrix 可以通过两种方式进入 OS 更新模式：
 1. 使用设置菜单左下角的红色按钮。
 2. 在插入 Matrix 时长按功能键。
 
-您还需要一个新的固件文件来更新您的 Matrix。您可以在 [Matrix OS Github](https://github.com/203Electronics/MatrixOS/releases) 的发布部分中找到它们。
+你还需要一个新的固件文件来更新你的 Matrix。你可以在 [Matrix OS Github](https://github.com/203Electronics/MatrixOS/releases) 的发布部分中找到它们。
 
-Matrix将显示为USB大容量存储器驱动器在您的主机设备中。只需将所需OS的UF2文件复制到此驱动器中。Matrix将完成固件更新，并在完成后重新启动。
+Matrix将显示为USB大容量存储器驱动器在你的主机设备中。只需将所需OS的UF2文件复制到此驱动器中。Matrix将完成固件更新，并在完成后重新启动。
 
 ![](Image/firmware-upload.svg)
 
@@ -234,5 +234,15 @@ Matrix 有几种特殊启动模式。在启动过程中按住指示的键将进�
 
 ![](Image/special-booting-factory-menu.svg) -->
 
+
+# 反馈和支持
+如果你对Matrix OS有任何反馈或建议，你可以在我们的Github上创建一个问题或讨论帖子来让我们知道。或者，你也可以通过电子邮件联系我们，邮箱地址为null@203.io。
+
+如果对于本手册有任何反馈或建议，你也可以通过在我们的Github上手册的仓库创建一个问题，或者提交Pull Request的方式来为其做出贡献。
+
+如果你需要有关Matrix的任何支持，请发送电子邮件至null@203.io，我们将尽最大努力帮助你。
+
+你也可以加入我们的QQ群来与我们联系或者与其他玩家交流，群号为：868894656。
+
 # 本文贡献
-- 203Null - 203 工作室
+- Null - 203 Electronics
