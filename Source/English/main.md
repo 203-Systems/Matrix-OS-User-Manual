@@ -11,6 +11,11 @@ header-center: ""
 header-right: "OS Version 2.4.1"
 toc: true
 toc-own-page: true
+colorlinks: true
+titlepage: true
+titlepage-rule-height: 0
+titlepage-background: "backgrounds/background.pdf"
+titlepage-text-color: "FFFFFF"
 header-includes: |
     \usepackage{sectsty}
     \sectionfont{\clearpage}
@@ -154,7 +159,7 @@ entire scale is completed will realign with root note)
 
 \pagebreak
 #### Scale Table
-| Index | Scale                    | C | C# | D | Eb | E | F | F# | G | Ab | A | Bb | B |
+|Index | Scale                     | C | C# | D | Eb | E | F | F# | G | Ab | A | Bb | B |
 |------|---------------------------|---|----|---|----|---|---|----|---|----|---|----|---|
 | 1    | Natural Minor             | X |    | X |    |   | X |    | X |    | X |    |   |
 | 2    | Major                     | X |    | X |    | X |   | X  |   | X  |   | X  |   |

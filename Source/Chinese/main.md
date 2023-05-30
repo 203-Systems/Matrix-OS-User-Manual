@@ -11,6 +11,7 @@ header-right: "OS 版本 2.4.1"
 toc: true
 toc-own-page: true
 toc-title: "目录"
+colorlinks: true
 header-includes: |
     \usepackage{sectsty}
     \sectionfont{\clearpage}

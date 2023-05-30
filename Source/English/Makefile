@@ -20,7 +20,7 @@ $(info DATE: $(DATE))
 $(info TAG: $(GITTAG))
 
 # Rule to build all PDFs
-all: $(PDFS)
+all: clean $(PDFS)
 
 # Rule to build a PDF from a source file
 $(BUILDDIR)%.pdf: $(SRCDIR)%.md
