@@ -194,7 +194,37 @@ entire scale is completed will realign with root note)
 | 31   | Kumoi                     | X |    | X |    |   |   | X  |   | X  |   |    |   |
 | 32   | BeBop Major               | X |    | X |    | X | X |    | X | X  |   | X  |   |
 
+### Example Configurations
+![](Image/note-mode-example-1.svg)
+
+- Enforce Scale - On
+
+- Overlap - 0
+
+- Root Aligned - On
+
 \pagebreak
+
+![](Image/note-mode-example-2.svg)
+
+- Enforce Scale - On
+
+- Overlap - 3
+
+- Root Aligned - Off
+
+\pagebreak
+
+![](Image/note-mode-example-3.svg)
+
+- Enforce Scale - Off
+
+- Overlap - 0
+
+- Root Aligned - Off
+
+\pagebreak
+
 ## Lighting APP
 Lighting APP is very simple app that is used to allow Matrix to be used for lighting purpose.
 
