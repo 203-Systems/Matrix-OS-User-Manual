@@ -1,5 +1,6 @@
 ---
 title: "Matrix OS 用户手册"
+subtitle: "OS 版本 2.4.1"
 author: [203 Electronics]
 date: "\\date"
 footer-left: "\\leftmark"
@@ -12,6 +13,10 @@ toc: true
 toc-own-page: true
 toc-title: "目录"
 colorlinks: true
+titlepage: true
+titlepage-rule-height: 0
+titlepage-background: "backgrounds/background.pdf"
+titlepage-text-color: "FFFFFF"
 header-includes: |
     \usepackage{sectsty}
     \sectionfont{\clearpage}
