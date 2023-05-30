@@ -160,40 +160,42 @@ Matrix OS上的所有用户功能都作为单独的应用程序提供。本文�
 \pagebreak
 #### 音阶表格
 
-| 编号 | 音阶                       | C | C# | D | Eb | E | F | F# | G | Ab | A | Bb | B |
-|------|----------------------------|---|----|---|----|---|---|----|---|----|---|----|---|
-| 1    | Natural Minor             | X |    | X |    |   | X |    | X |    | X |    |   |
-| 2    | Major                     | X |    | X |    | X |   | X  |   | X  |   | X  |   |
-| 3    | Dorian                    | X |    | X |    |   | X |    | X |    | X |    |   |
-| 4    | Phrygian                  | X | X  |   | X  |   | X |    | X |    | X |    | X |
-| 5    | Mixolydian                | X |    | X |    | X |   | X  |   | X  |   | X  |   |
-| 6    | Melodic Minor Ascending   | X |    | X |    |   | X |    | X |    | X |    | X |
-| 7    | Harmonic Minor            | X |    | X |    |   | X |    | X |    |   | X  |   |
-| 8    | Bebop Dorian              | X |    |   | X  | X | X |    | X |    | X |    |   |
-| 9    | Blues                     | X |    |   | X  |   | X | X  |   |    | X |    | X |
-| 10   | Minor Pentatonic          | X |    |   | X  |   | X |    |   |    | X |    | X |
-| 11   | Hungarian Minor           | X |    | X |    |   |   | X  | X |    | X |    | X |
-| 12   | Ukranian Dorian           | X |    | X |    |   |   | X  | X |    | X | X  |   |
-| 13   | Marva                     | X | X  |   | X  |   | X |    | X |    | X |    | X |
-| 14   | Todi                      | X | X  |   | X  |   |   | X  | X |    | X |    | X |
-| 15   | Whole Tone                | X |    | X |    | X |   | X  |   | X  |   |    |   |
-| 16   | Chromatic                 | X | X  | X | X  | X | X | X  | X | X  | X | X  | X |
-| 17   | Lydian                    | X |    | X |    | X |   | X  | X |    | X |    |   |
-| 18   | Locrian                   | X | X  |   | X  |   | X | X  |   | X  |   |    | X |
-| 19   | Major Pentatonic          | X |    | X |    | X |   |    | X |    | X |    |   |
-| 20   | Phyrigian Dominate        | X | X  |   |    | X |   | X  | X |    | X |    | X |
-| 21   | Half-Whole Diminished     | X | X  |   | X  | X |   | X  |   | X  |   | X  | X |
-| 22   | Mixolydian BeBop          | X |    | X |    | X | X |    | X |    | X | X  | X |
-| 23   | Super Locrian             | X | X  |   | X  | X |   | X  |   | X  |   |    |   |
-| 24   | Hirajoshi                 | X |    | X |    |   |   |    | X |    | X |    |   |
-| 25   | In Sen                    | X | X  |   |    |   | X |    | X |    |   | X  |   |
-| 26   | Yo Scale                  | X |    | X |    | X |   | X  |   | X  |   |    |   |
-| 27   | Iwato                     | X | X  |   |    |   | X |    |   |    |   | X  |   |
-| 28   | Whole Half                | X |    | X |    | X | X |    | X |    | X |    | X |
-| 29   | BeBop Minor               | X |    | X |    | X | X |    | X |    | X |    | X |
-| 30   | Major Blues               | X |    | X |    |   |   | X  |   | X  |   |    | X |
-| 31   | Kumoi                     | X |    | X |    |   |   | X  |   | X  |   |    |   |
-| 32   | BeBop Major               | X |    | X |    | X | X |    | X | X  |   | X  |   |
+| 编号    | 音阶                     | C | C# | D | Eb | E | F | F# | G | Ab | A | Bb | B |
+|--------|--------------------------|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1      | Natural Minor            | X |   | X | X |   | X |   | X | X |   | X |   |
+| 2      | Major                    | X |   | X |   | X | X |   | X |   | X |   | X |
+| 3      | Dorian                   | X |   | X | X |   | X |   | X |   | X | X |   |
+| 4      | Phrygian                 | X | X |   | X |   | X |   | X | X |   | X |   |
+| 5      | Mixolydian               | X |   | X |   | X | X |   | X |   | X | X |   |
+| 6      | Melodic Minor Ascending  | X |   | X | X |   | X |   | X |   | X |   | X |
+| 7      | Harmonic Minor           | X |   | X | X |   | X |   | X | X |   |   | X |
+| 8      | Bebop Dorian             | X |   | X | X | X | X |   | X |   | X | X |   |
+| 9      | Blues                    | X |   |   | X |   | X | X | X |   |   | X |   |
+| 10     | Minor Pentatonic         | X |   |   | X |   | X |   | X |   |   | X |   |
+| 11     | Hungarian Minor          | X |   | X | X |   |   | X | X | X |   |   | X |
+| 12     | Ukranian Dorian          | X |   | X | X |   |   | X | X |   | X | X |   |
+| 13     | Marva                    | X | X |   |   | X |   | X | X |   | X |   | X |
+| 14     | Todi                     | X | X |   | X |   | X | X | X |   |   |   | X |
+| 15     | Whole Tone               | X |   | X |   | X |   | X |   | X |   | X |   |
+| 16     | Chromatic                | X | X | X | X | X | X | X | X | X | X | X | X |
+| 17     | Lydian                   | X |   | X |   | X |   | X | X |   | X |   | X |
+| 18     | Locrian                  | X | X |   | X |   | X | X |   | X |   | X |   |
+| 19     | Major Pentatonic         | X |   | X |   | X |   |   | X |   | X |   |   |
+| 20     | Phyrigian Dominate       | X | X |   |   | X | X |   | X | X |   | X |   |
+| 21     | Half-Whole Diminished    | X | X |   | X | X |   | X | X |   | X | X |   |
+| 22     | Mixolydian BeBop         | X |   | X |   | X | X |   | X |   | X | X | X |
+| 23     | Super Locrian            | X | X |   | X | X |   | X |   | X |   | X |   |
+| 24     | Hirajoshi                | X |   | X | X |   |   |   | X | X |   |   |   |
+| 25     | In Sen                   | X | X |   |   |   | X |   | X |   |   | X |   |
+| 26     | Yo Scale                 | X |   | X |   |   | X |   | X |   | X |   |   |
+| 27     | Iwato                    | X | X |   |   |   | X | X |   |   |   | X |   |
+| 28     | Whole Half               | X |   | X | X |   | X | X |   | X | X |   | X |
+| 29     | BeBop Minor              | X |   | X | X |   | X |   | X | X |   | X | X |
+| 30     | Major Blues              | X |   | X | X | X |   |   | X |   | X |   |   |
+| 31     | Kumoi                    | X |   | X | X |   |   |   | X |   | X |   |   |
+| 32     | BeBop Major              | X |   | X |   | X | X |   | X | X | X |   | X |
+
+
 \pagebreak
 
 ### 参考配置
@@ -209,7 +211,7 @@ Matrix OS上的所有用户功能都作为单独的应用程序提供。本文�
 
 ![](Image/note-mode-example-2.svg)
 
-- 强制音阶 - 开
+- 强制音阶 - 开FF
 
 - 重叠 - 3
 

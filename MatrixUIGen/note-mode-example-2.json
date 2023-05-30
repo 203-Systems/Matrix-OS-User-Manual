@@ -1,0 +1,12 @@
+{
+    "color": [
+        ["#00FFFF", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#00FFFF"],
+        ["#FFFF00", "#FFFF00", "#FFFF00", "#00FFFF", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00"],
+        ["#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#00FFFF", "#FFFF00"],
+        ["#FFFF00", "#FFFF00", "#00FFFF", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00"],
+        ["#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#00FFFF", "#FFFF00", "#FFFF00"],
+        ["#FFFF00", "#00FFFF", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00"],
+        ["#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#00FFFF", "#FFFF00", "#FFFF00", "#FFFF00"],
+        ["#00FFFF", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#FFFF00", "#00FFFF"]
+    ]
+}
