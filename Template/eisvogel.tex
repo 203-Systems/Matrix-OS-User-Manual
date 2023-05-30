@@ -902,7 +902,7 @@ $else$
 $if(titlepage)$
 \begin{titlepage}
 $if(titlepage-background)$
-\newgeometry{top=2cm, right=4cm, bottom=3cm, left=4cm}
+\newgeometry{top=16cm, right=4cm, bottom=3cm, left=2cm}
 $else$
 \newgeometry{left=6cm}
 $endif$
@@ -928,26 +928,22 @@ $if(titlepage-background)$
   \setstretch{2}
   \vfill
   \vskip -8em
-  \noindent {\huge \textbf{\textsf{$title$}}}
+  \noindent {\Huge \textbf{$title$}}
   $if(subtitle)$
   \vskip 1em
   {\Large \textsf{$subtitle$}}
   $endif$
-  \vskip 2em
-  \noindent {\Large \textsf{$for(author)$$author$$sep$, $endfor$} \vskip 0.6em \textsf{$date$}}
   \vfill
 }
 $else$
 {
-  \setstretch{1.4}
-  \vfill
-  \noindent {\huge \textbf{\textsf{$title$}}}
+  % \setstretch{1.4}
+  % \vfill
+  \noindent {\Huge \textsf{$title$}}
   $if(subtitle)$
   \vskip 1em
   {\Large \textsf{$subtitle$}}
   $endif$
-  \vskip 2em
-  \noindent {\Large \textsf{$for(author)$$author$$sep$, $endfor$}}
   \vfill
 }
 $endif$
@@ -959,6 +955,8 @@ $endif$
 
 $if(titlepage-background)$
 $else$
+\noindent {\Large \textsf{$for(author)$$author$$sep$, $endfor$}}
+\vskip 1em
 \textsf{$date$}
 $endif$
 \end{flushleft}
