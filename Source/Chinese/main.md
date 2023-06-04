@@ -211,7 +211,7 @@ Matrix OS上的所有用户功能都作为单独的应用程序提供。本文�
 
 ![](Image/note-mode-example-2.svg)
 
-- 强制音阶 - 开FF
+- 强制音阶 - 开
 
 - 重叠 - 3
 
