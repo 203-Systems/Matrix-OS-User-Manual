@@ -135,7 +135,7 @@ App Config:
 
 Layout Config:
 
-- \textcolor[rgb]{1,0,1}{$\blacksquare$} (Depends on config color) Left Bar - Octive Selector
+- \textcolor[rgb]{1,0,1}{$\blacksquare$} (Depends on config color) Left Bar - Octave Selector
 
 - \textcolor[rgb]{1,0,1}{$\blacksquare$} (Depends on config color) (7,0) - Color Selector, change the color combination of the layout.
 
