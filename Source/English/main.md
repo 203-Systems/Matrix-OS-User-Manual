@@ -34,7 +34,7 @@ If Matrix OS can not connect to the host (eg, connected to a power bank), a stan
 
 After the boot animation, the application launcher will be the first thing that the OS shows.
 
-Matrix OS features are available as separate applications. How the device behaves will complete differ depends on the active application.
+Matrix OS features are available as separate applications. How the device behaves will completely differ depending on the active application.
 
 # Application Launcher
 Application Launcher is the main menu of the OS. It allows user to select an application to use.
@@ -52,13 +52,13 @@ Top section of the app launcher are applications available. The bottom section a
 
 ### Control Bar
 - \textcolor[rgb]{0,1,1}{$\blacksquare$} (0,7) - System Applications
-- \textcolor[rgb]{0,0,0}{$\square$} (7,7) - [System Setting}](#system-setting)
+- \textcolor[rgb]{0,0,0}{$\square$} (7,7) - [System Setting](#system-setting)
 
 \pagebreak
 # System Setting
-The System setting controls things that are system wide. Like brightness, rotation, device specific features, and more.
+The System setting controls things that are system wide like brightness, rotation, device specific features, and more.
 
-In most of Matrix OS UI. You can hold down any light up buttons to see what their name or meaning. Holding down any unlit keys will show the current menu name.
+In most of Matrix OS UI, you can hold down any light up buttons to see their name or meaning. Holding down any unlit keys will show the current menu name.
 
 Some lit keys will have more advanced control panel if held down (eg, brightness control). In that case, you can hold down the unlit keys in the advance control to see the meaning for the button.
 
@@ -68,7 +68,7 @@ Some lit keys will have more advanced control panel if held down (eg, brightness
 - \textcolor[rgb]{0,0,0}{$\square$} Center - Brightness Control, tap to cycle though all brightness level, hold to enter brightness control panel.
 - \textcolor[rgb]{0,1,0}{$\blacksquare$} Around the Center - Rotation Control, tap to rotate to specific direction. Up direction serves no purpose.
 - \textcolor[rgb]{1,0,0}{$\blacksquare$} (0,7) - [Firmware Update Mode, tap to enter firmware update mode](#matrix-os-update).
-- \textcolor[rgb]{0,1,1}{$\blacksquare$} (7,7) - Device ID, Tap to enter device ID. This is useful if you have mulitple Matrix and want to identify them.
+- \textcolor[rgb]{0,1,1}{$\blacksquare$} (7,7) - Device ID, tap to enter device ID. This is useful if you have multiple Matrix and want to identify them.
 
 ### System Info
 - \textcolor[rgb]{0,1,0.19}{$\blacksquare$} (1,7) - Matrix OS Version
@@ -107,7 +107,7 @@ To exit performance app, enter action menu and hold down the function key. You w
 
 \pagebreak
 ## Note APP
-Note APP is used for as a midi note interface. It can be used to play midi notes with different layout, scale, and modes.
+Note APP is used as a midi note interface. It can be used to play midi notes with different layout, scale, and modes.
 
 After configuration, click the function key to enter the notepad, click again to return to the configuration menu.
 
