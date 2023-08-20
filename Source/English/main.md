@@ -145,7 +145,7 @@ Layout Config:
 
 - \textcolor[rgb]{1,0.31,0}{$\blacksquare$} (7,3) - Enforce Scale. When on, only notes in the selected scale will be shown, when off, all notes will be shown but notes that are not in the selected scale will be dimmed. (Chromatic mode when off, scale mode when on)
 
-- \textcolor[rgb]{1,1,0}{$\blacksquare$} (7,4) - Overlap Selector. Selects how much each row above overlaps with the row below it. This is useful if you want to play chords with one hand. (There is also an aligh root toggle inside this menu. When on the next row above after the 
+- \textcolor[rgb]{1,1,0}{$\blacksquare$} (7,4) - Overlap Selector. Selects how much each row above overlaps with the row below it. This is useful if you want to play chords with one hand. (There is also an align root toggle inside this menu. When on the next row above after the 
 entire scale is completed will realign with root note)
 
 - \textcolor[rgb]{0.37,1,0}{$\blacksquare$} (7,5) - Channel Selector, selects the midi channel that the note app will send midi notes to.
